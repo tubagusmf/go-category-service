@@ -1,14 +1,15 @@
 package main
 
 import (
-	"category-service/internal/usecase"
 	"log"
 	"net"
 
-	"github.com/tubagusmf/category-service/internal/repository"
+	"github.com/tubagusmf/go-category-service/internal/usecase"
 
-	grpcSvc "github.com/tubagusmf/category-service/internal/delivery/grpc"
-	pb "github.com/tubagusmf/category-service/pb/category"
+	"github.com/tubagusmf/go-category-service/internal/repository"
+
+	grpcSvc "github.com/tubagusmf/go-category-service/internal/delivery/grpc"
+	pb "github.com/tubagusmf/go-category-service/pb/category"
 
 	"google.golang.org/grpc"
 )

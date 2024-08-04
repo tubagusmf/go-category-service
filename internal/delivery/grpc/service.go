@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"github.com/tubagusmf/category-service/internal/model"
-	pb "github.com/tubagusmf/category-service/pb/category"
+	"github.com/tubagusmf/go-category-service/internal/model"
+	pb "github.com/tubagusmf/go-category-service/pb/category"
 )
 
 type CategoryService struct {

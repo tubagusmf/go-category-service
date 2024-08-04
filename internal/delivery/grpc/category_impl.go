@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	pb "github.com/tubagusmf/category-service/pb/category"
+	pb "github.com/tubagusmf/go-category-service/pb/category"
 )
 
 // FindCategorys is a function to find categorys

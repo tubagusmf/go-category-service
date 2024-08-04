@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/tubagusmf/category-service/internal/model"
+import "github.com/tubagusmf/go-category-service/internal/model"
 
 type categoryUsecase struct {
 	categoryRepo model.CategoryRepository
