@@ -1,4 +1,4 @@
-module category-service
+module github.com/tubagusmf/category-service
 
 go 1.22.3
 

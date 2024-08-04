@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"category-service/internal/model"
-	pb "category-service/pb/category"
+	"github.com/tubagusmf/category-service/internal/model"
+	pb "github.com/tubagusmf/category-service/pb/category"
 )
 
 type CategoryService struct {

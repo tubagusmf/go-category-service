@@ -1,6 +1,6 @@
 package repository
 
-import "category-service/internal/model"
+import "github.com/tubagusmf/category-service/internal/model"
 
 type categoryRepository struct {
 }

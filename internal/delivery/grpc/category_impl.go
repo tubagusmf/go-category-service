@@ -1,9 +1,10 @@
 package grpc
 
 import (
-	pb "category-service/pb/category"
 	"context"
 	"errors"
+
+	pb "github.com/tubagusmf/category-service/pb/category"
 )
 
 // FindCategorys is a function to find categorys
